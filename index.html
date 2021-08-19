@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>musicPlayer</title>
+		<link
+			rel="stylesheet"
+			href="files/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section id="bg">
+			<div class="level">Music Player basic level</div>
+			<div class="holder">
+				<div class="albumPic"></div>
+				<div class="songName"></div>
+				<div class="controls">
+					<div class="prev"><i class="fas fa-backward"></i></div>
+					<div class="aud">
+						<i class="fas fa-play" id="playBtn" onclick="toggling(this)"></i>
+						<audio src="" id="Play"></audio>
+					</div>
+					<div class="next"><i class="fas fa-forward"></i></div>
+				</div>
+			</div>
+		</section>
+		<script src="files/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/js/all.min.js"></script>
+		<script src="files/jquery-3.6.0.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

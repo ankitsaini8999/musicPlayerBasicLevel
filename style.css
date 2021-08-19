@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background: #969595;
+  position: relative;
+}
+
+section .level {
+  text-align: center;
+  font-size: 50px;
+}
+
+section .holder {
+  width: 250px;
+  height: 400px;
+  background: linear-gradient(45deg, #6b6a6a, #c0c0c0, #555555);
+  border-radius: 10px;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+}
+
+section .holder .albumPic {
+  width: 85%;
+  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000;
+}
+
+section .holder .songName {
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -66%);
+          transform: translate(-50%, -66%);
+  font-size: 35px;
+}
+
+section .holder .controls {
+  width: 90%;
+  height: 60px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -90%);
+          transform: translate(-50%, -90%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: radial-gradient(#f8f5f5 30%, #555454);
+  border-radius: 25px;
+}
+
+section .holder .controls .prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+section .holder .controls .aud {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+section .holder .controls .aud #playBtn {
+  font-size: 40px;
+  margin: 10px 0 0 15px;
+}
+
+section .holder .controls .next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+  line-height: 40px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
