@@ -52,7 +52,7 @@ section .holder .songName {
   left: 50%;
   -webkit-transform: translate(-50%, -66%);
           transform: translate(-50%, -66%);
-  font-size: 35px;
+  font-size: 30px;
 }
 
 section .holder .controls {
